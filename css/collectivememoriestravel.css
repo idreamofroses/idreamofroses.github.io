@@ -22,6 +22,17 @@ a:hover {
     color: #f0ad4e;
     text-decoration: none;
 }
+/*.hover:hover {
+    background-color: #f0ad4e;
+    color: #7bbaa5;
+} */
+/* borders */
+.border-solid {
+    border: solid;
+}
+.border-ridge {
+    border: ridge;
+}
 /* fonts */
 .font-museo {
    font-family: tk-museo, serif;

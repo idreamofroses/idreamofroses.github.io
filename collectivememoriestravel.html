@@ -11,7 +11,22 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Collective Memories Styles -->
     <link href="css/collectivememoriestravel.css" rel="stylesheet">
-
+    <script>
+        function changeFacebookBtnColorOrange() {
+            document.getElementById("hover1").style.color = "#f0ad4e";
+            document.getElementById("hover2").style.backgroundColor = "#f0ad4e";
+        } 
+        function changeFacebookBtnColorBlue() {
+            document.getElementById("hover1").style.color = "#0eb9b4";
+            document.getElementById("hover2").style.backgroundColor = "#0eb9b4";
+        } 
+        function changeContactBtnColorOrange() {
+            document.getElementById("hover3").style.color = "#f0ad4e";
+        } 
+        function changeContactBtnColorBlue() {
+            document.getElementById("hover3").style.color = "#0eb9b4";
+        } 
+    </script>
   </head>
   <body>
     <div class="container">
@@ -24,7 +39,7 @@
                     <strong> Travel Consultant: </strong> LeNee Curtis <br>
                     <strong> Call Me: </strong><a href="tel:1-208-705-3883"> (208) 705-3883 </a><br>
                     <strong> Email: </strong><a href="mailto:collectivememoriestravel@gmail.com" class="link"> CollectiveMemoriesTravel@gmail.com </a><br>
-                    <a href="http://20030476.travsearch.com" target="_blank" class="link">travesearch.com</a>
+                    <a href="http://www.collectivememoriestravel.com" target="_blank" class="link">www.collectivememoriestravel.com </a>
                 </p>
             </div> 
         </div>
@@ -40,7 +55,7 @@
             <div class="col-sm-8 bg-warning">
                 <div class="p-top-20">
                     <div class="pull-left p-r-20">
-                        <img src="http://20030476.travsearch.com/wp-content/uploads/sites/3531/2016/05/Lenee-Low-Res-File.jpg" alt="My Headshot" class="img-fluid rounded">
+                        <img src="images/LeNeeCurtis.jpg" alt="My Headshot" class="img-fluid rounded border-solid">
                     </div>
                     <div class="align-right">
                         <h1 class="text-dark-blue letter-space-1">Why Work With Me?</h1>
@@ -59,9 +74,12 @@
                             <li><strong>Unbiased information</strong> – When you book travel through me, I work for you - not the travel supplier, so my main concern is always you and your unique needs.</li>
                         </ol>
                         <p>I don’t have a magic wand, I don’t set the prices, but I am dedicated to offering you the best value and advice; while maintaining an emphasis on customer service, so don’t hesitate to contact me so we can start planning your next travel adventure. Please take a moment and visit our Facebook page and read reviews. I can book any of your travel needs but specialize in All Inclusive, Cruises, and Disney travel. I can make sure all your travel needs are fulfilled. I look forward to hearing from you!</p>
-                        <div class="pull-right p-r-10">
-                            <a href="http://20030476.travsearch.com/about/" class="btn btn-default btn-lg">Contact Me</a>
-                        </div>
+                            <div class="pull-left">
+                                <a href="https://www.facebook.com/CollectiveMemoriesTravel/" class="btn btn-default btn-md" id="hover1" target="_blank" onmouseover="changeFacebookBtnColorOrange();" onmouseout="changeFacebookBtnColorBlue();"><img src="images/facebook.png" alt="facebook icon" class="bg-aqua" height="30" id="hover2">Connect</a>
+                           </div> 
+                            <div class="pull-right p-r-10">
+                                <a href="http://20030476.travsearch.com/about/" class="btn btn-default btn-md" onmouseover="changeContactBtnColorOrange();" onmouseout="changeContactBtnColorBlue();" id="hover3"><div style="height: 30px;">Contact Me</div></a>
+                          </div>
                         <br>
                         <br>
                         <br>
@@ -72,13 +90,13 @@
                 <div class="bg-aqua text-center">
                     <h3 class="p-t-10">Required Client Forms</h3>
                     <ul class="list-group">
-                        <li class="list-group-item"><a href="http://www.emailmeform.com/builder/form/fbj6xNv1oXbCs" target="_blank" >Client Information</a></li>
+                        <li class="list-group-item"><a href="http://www.emailmeform.com/builder/form/fbj6xNv1oXbCs" target="_blank" >Client Information </a></li>
+                        <li class="list-group-item"><a href="http://www.emailmeform.com/builder/form/9PogWCv9747kpN8I" target="_blank">Cruise Client Information </a></li>
+                        <li class="list-group-item"><a href="https://www.emailmeform.com/builder/form/5490GwMcEdKD0lsZNuq" target="_blank">Credit Card Authorization </a></li>
                         <li class="list-group-item"><a href="http://www.emailmeform.com/builder/form/ifj9Ww46u8Ex" target="_blank">Insurance</a></li>
+                        <li class="list-group-item"><a href="http://www.emailmeform.com/builder/form/yCexfzkccv4q8W" target="_blank">Air Only Travel</a></li>
                         <li class="list-group-item"><a href="http://www.emailmeform.com/builder/form/7uz53Ejhg6G" target="_blank" >Information Acknowledgement</a></li>
-                        <li class="list-group-item"><a href="https://www.emailmeform.com/builder/form/UwVI490NZeOC3e7b8Jx6" target="_blank">Air ONLY CC Auth </a></li>
-                        <li class="list-group-item"><a href="https://www.emailmeform.com/builder/form/5490GwMcEdKD0lsZNuq" target="_blank">Credit Card Auth </a></li>
-                        <li class="list-group-item"><a href="http://www.emailmeform.com/builder/form/9PogWCv9747kpN8I" target="_blank">Cruise Client Form </a></li>
-                        <li class="list-group-item"><a href="http://www.emailmeform.com/builder/form/yCexfzkccv4q8W" target="_blank">Air travel Only</a></li>
+                        <li class="list-group-item"><a href="https://www.emailmeform.com/builder/form/UwVI490NZeOC3e7b8Jx6" target="_blank">Air Only CC Authorization </a></li>
                     </ul>
                     <h3>Other Forms</h3>
                     <ul class="list-group">
