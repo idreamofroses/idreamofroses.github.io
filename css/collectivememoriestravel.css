@@ -145,7 +145,10 @@ a:hover {
 .inline-block {
     display: inline-block;
 }
-
+.centered {
+    width: 50%;
+}
+/* tag styles */
 body, p {
     color: #6a6461;
 }
